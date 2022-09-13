@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <title> Ejercicio 13 </title>
+    <link href="../Bootstrap/bootstrap.min.css" rel="stylesheet"> 
+    <script src="../JQuery/jquery.min.js" ></script>
+    <script type="text/javascript"></script>
+
+
+</head>
+
+<body>
+    <div id="data"></div>
+    <script>
+        var datos = 0;
+        var temp_min = 0;
+        var temp_max = 0;
+        var dia = 0;
+
+        $.ajax({
+            url: 'https://api.openweathermap.org/data/2.5/forecast?lat=-34.705&lon=-58.434799&appid=d61192aa4b8dd737e3634cd5ca172406&units=metric&lang=sp',
+            dataType: 'json',
+            success: function (data) {
+
+                data['list'].forEach(function (item) {
+                    //  temp_min = item.main.temp_min; 
+                    //  temp_max = item.main.temp_max;
+                    dia = item.dt_txt;
+                    if (item.main.temp_max > temp_max) {
+                        temp_max = item.main.temp_max;
+                        dia_max = dia;    
+                    } 
+                    if (temp_min > item.main.temp_min){
+                        temp_min = item.main.temp_min;
+                        dia_min = dia;
+                    } else {
+                        temp_min = item.main.temp_min;
+                    }
+                  
+                    
+                    console.log("La temperatura minima es: " + temp_min);
+                    console.log("La temperatura maxima es: " + temp_max);
+                    console.log("El dia de estas temperaturas es: " + dia);
+                })
+                
+                console.log("La temperatura minima total es: " + temp_min + "   " + dia_min);
+                console.log("La temperatura maxima total es: " + temp_max + " " + dia_max);
+
+                console.log(data['city']['name']);
+                var ciudad = data[['city']['name']];
+                s = 
+                `<div class="container">
+                    <div class="text-center" >
+                    <span> La ubicacion es: ${data['city']['name']}</span> <br>
+                    <span> La temperatura maxima es: ${temp_max} el dia: ${dia_max}   </span> <br>
+                    <span> La temperatura minima es: ${temp_min} el dia: ${dia_min} </span>
+                    </div>
+                </div>` ;
+                $("#data").html(s);
+
+            }
+        });
+
+
+    </script>
+</body>
+
+</html>
