@@ -13,9 +13,10 @@
     <div id="data"></div>
     <script>
         var datos = 0;
-        var temp_min = 0;
+        var temp_min = 5;
         var temp_max = 0;
         var dia = 0;
+        var dia_lluvia= 0;
 
         $.ajax({
             url: 'https://api.openweathermap.org/data/2.5/forecast?lat=-34.705&lon=-58.434799&appid=d61192aa4b8dd737e3634cd5ca172406&units=metric&lang=sp',
@@ -36,11 +37,15 @@
                     } else {
                         temp_min = item.main.temp_min;
                     }
+                    if(item.weather.main = "Rain"){
+                        dia_lluvia = item.dt_txt;
+                    }
                   
                     
                     console.log("La temperatura minima es: " + temp_min);
                     console.log("La temperatura maxima es: " + temp_max);
                     console.log("El dia de estas temperaturas es: " + dia);
+                   
                 })
                 
                 console.log("La temperatura minima total es: " + temp_min + "   " + dia_min);
@@ -53,7 +58,10 @@
                     <div class="text-center" >
                     <span> La ubicacion es: ${data['city']['name']}</span> <br>
                     <span> La temperatura maxima es: ${temp_max} el dia: ${dia_max}   </span> <br>
-                    <span> La temperatura minima es: ${temp_min} el dia: ${dia_min} </span>
+                    <span> La temperatura minima es: ${temp_min} el dia: ${dia_min} </span> <br>
+                    <span> El día mas caluroso es el: ${dia_max} </span> <br>
+                    <span> El día que llueve es el: ${dia_lluvia} </span> <br>
+                 
                     </div>
                 </div>` ;
                 $("#data").html(s);
