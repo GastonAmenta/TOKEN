@@ -8,5 +8,5 @@
     }
 
     echo json_encode($res);
-    
+ //   header('location:../paginador2.php');
 ?>

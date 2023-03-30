@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <script>
+    
+    var numeros = [4,5,8,9,15,17,20,22,37,30,29,25,13,46];
+    var suma = 0;
+    var suma_multiplo = 0;
+    var suma_final = 0;
+   // document.write(suma);
+    for(i=0;i<numeros.length;i++){
+        suma += numeros[i]
+        if(numeros[i]%5 !=0){
+            document.write(numeros[i] + " No es múltiplo de 5" + "<br>");
+            suma_final += numeros[i];
+        }else{
+            suma_multiplo += numeros[i];
+        }
+      // document.write(suma_secuencia); "<br>"
+      //document.write(numeros[i]);
+    }
+    suma_final += suma;
+    suma_final += suma_multiplo;
+    document.write("La suma de todos los valores de la secuencia es: " +suma + "<br>");
+    document.write("La suma de los multiplos de 5 es: " +suma_multiplo + "<br>");
+    document.write("La suma de todos los valores mostrados es: " +suma_final);
+    
+    </script>
+</head>
+<body>
+  
+   
+</body>
+</html>

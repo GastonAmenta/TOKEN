@@ -12,6 +12,9 @@
         var page = 1;
         
         var contenido;
+        console.log(page);
+        contenido += "<a href='php/clientes.php?page=". contenido;" >Siguiente</a>"
+        contenido += '<button type="button" onclick="restar()" id="anterior">Anterior</button>'; 
 
         function sumar (){
             page = page+1;
@@ -62,14 +65,21 @@
                 <script>
                     var el = document.getElementById('content2');
                     if (page != 0) {
-                    contenido = '<button type="button" onclick="restar()" id="anterior">Anterior</button>';    
+                       
                     el.insertAdjacentHTML('afterbegin', contenido);
                     
                     console.log(page);
                 }
-                    
-                contenido = '<a href="php/clientes.php?page=" . page >Siguiente</a>'  
-                el.insertAdjacentHTML('afterbegin', contenido); 
+                 
+               
+              //  el.insertAdjacentHTML('afterbegin', contenido); 
+                
+                
+                
+                
+                
+                
+                
                 </script>
                 
                 
