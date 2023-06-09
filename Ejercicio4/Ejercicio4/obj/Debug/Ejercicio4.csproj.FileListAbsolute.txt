@@ -6,3 +6,11 @@ C:\Users\Alumno\Desktop\Stuff\5°11\Amenta Gaston\Ejercicio4\Ejercicio4\obj\Debu
 C:\Users\Alumno\Desktop\Stuff\5°11\Amenta Gaston\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\Desktop\Stuff\5°11\Amenta Gaston\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.exe
 C:\Users\Alumno\Desktop\Stuff\5°11\Amenta Gaston\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.pdb
+C:\xampp\htdocs\amenta\mirepositorio\TOKEN\Ejercicio4\Ejercicio4\bin\Debug\Ejercicio4.exe.config
+C:\xampp\htdocs\amenta\mirepositorio\TOKEN\Ejercicio4\Ejercicio4\bin\Debug\Ejercicio4.exe
+C:\xampp\htdocs\amenta\mirepositorio\TOKEN\Ejercicio4\Ejercicio4\bin\Debug\Ejercicio4.pdb
+C:\xampp\htdocs\amenta\mirepositorio\TOKEN\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.csproj.AssemblyReference.cache
+C:\xampp\htdocs\amenta\mirepositorio\TOKEN\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.csproj.SuggestedBindingRedirects.cache
+C:\xampp\htdocs\amenta\mirepositorio\TOKEN\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\amenta\mirepositorio\TOKEN\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.exe
+C:\xampp\htdocs\amenta\mirepositorio\TOKEN\Ejercicio4\Ejercicio4\obj\Debug\Ejercicio4.pdb
