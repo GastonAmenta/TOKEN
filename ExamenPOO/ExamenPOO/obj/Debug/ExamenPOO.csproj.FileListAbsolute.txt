@@ -1,0 +1,8 @@
+C:\Users\Alumno\Desktop\Stuff\5°11\Amenta Gaston\ExamenPOO\ExamenPOO\obj\Debug\ExamenPOO.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\Stuff\5°11\Amenta Gaston\ExamenPOO\ExamenPOO\obj\Debug\ExamenPOO.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\Desktop\Stuff\5°11\Amenta Gaston\ExamenPOO\ExamenPOO\obj\Debug\ExamenPOO.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\Stuff\5°11\Amenta Gaston\ExamenPOO\ExamenPOO\bin\Debug\ExamenPOO.exe.config
+C:\Users\Alumno\Desktop\Stuff\5°11\Amenta Gaston\ExamenPOO\ExamenPOO\bin\Debug\ExamenPOO.exe
+C:\Users\Alumno\Desktop\Stuff\5°11\Amenta Gaston\ExamenPOO\ExamenPOO\bin\Debug\ExamenPOO.pdb
+C:\Users\Alumno\Desktop\Stuff\5°11\Amenta Gaston\ExamenPOO\ExamenPOO\obj\Debug\ExamenPOO.exe
+C:\Users\Alumno\Desktop\Stuff\5°11\Amenta Gaston\ExamenPOO\ExamenPOO\obj\Debug\ExamenPOO.pdb

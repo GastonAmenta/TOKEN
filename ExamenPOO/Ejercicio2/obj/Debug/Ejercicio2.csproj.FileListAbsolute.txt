@@ -1,0 +1,8 @@
+C:\Users\Alumno\Desktop\Stuff\5°11\Amenta Gaston\ExamenPOO\Ejercicio2\bin\Debug\Ejercicio2.exe.config
+C:\Users\Alumno\Desktop\Stuff\5°11\Amenta Gaston\ExamenPOO\Ejercicio2\bin\Debug\Ejercicio2.exe
+C:\Users\Alumno\Desktop\Stuff\5°11\Amenta Gaston\ExamenPOO\Ejercicio2\bin\Debug\Ejercicio2.pdb
+C:\Users\Alumno\Desktop\Stuff\5°11\Amenta Gaston\ExamenPOO\Ejercicio2\obj\Debug\Ejercicio2.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\Stuff\5°11\Amenta Gaston\ExamenPOO\Ejercicio2\obj\Debug\Ejercicio2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\Desktop\Stuff\5°11\Amenta Gaston\ExamenPOO\Ejercicio2\obj\Debug\Ejercicio2.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\Stuff\5°11\Amenta Gaston\ExamenPOO\Ejercicio2\obj\Debug\Ejercicio2.exe
+C:\Users\Alumno\Desktop\Stuff\5°11\Amenta Gaston\ExamenPOO\Ejercicio2\obj\Debug\Ejercicio2.pdb
