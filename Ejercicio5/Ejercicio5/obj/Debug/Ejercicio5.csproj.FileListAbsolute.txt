@@ -1,0 +1,3 @@
+C:\xampp\htdocs\amenta\mirepositorio\TOKEN\Ejercicio5\Ejercicio5\obj\Debug\Ejercicio5.csproj.AssemblyReference.cache
+C:\xampp\htdocs\amenta\mirepositorio\TOKEN\Ejercicio5\Ejercicio5\obj\Debug\Ejercicio5.csproj.SuggestedBindingRedirects.cache
+C:\xampp\htdocs\amenta\mirepositorio\TOKEN\Ejercicio5\Ejercicio5\obj\Debug\Ejercicio5.csproj.CoreCompileInputs.cache

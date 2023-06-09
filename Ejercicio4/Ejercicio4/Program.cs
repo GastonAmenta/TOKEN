@@ -67,6 +67,37 @@ namespace Ejercicio4
             Console.WriteLine("El alumno {0} {1} tiene {2} años",nombre,apellido,edad);
         }
     }
+    public class clase
+    {
+        public clase()
+        {
 
+        }
+        public int curso;
+        public int division;
+        public string seccion;
+
+        public void mostrar()
+        {
+            Console.WriteLine("El curso {0} de division {1} pertenece a la seccion {2}",curso,division,seccion);
+        }
+    }
+    public class identidad
+    {
+        public identidad()
+        {
+
+        }
+        public int dni;
+        public string nombre;
+        public string apellido;
+        public string fechaNac;
+        public string domicilio;
+
+        public void Mostrar()
+        {
+            Console.WriteLine("La persona de dni {0} se llama {1} {2}, nacio el {3} y vive en {4}", dni, nombre, apellido, fechaNac, domicilio);
+        }
+    }
 
 }
